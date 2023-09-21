@@ -14,9 +14,9 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "docs",
+            "baseHref": "/coordinates/",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "baseHref": "/coordinates/",
             "polyfills": [
               "zone.js"
             ],
