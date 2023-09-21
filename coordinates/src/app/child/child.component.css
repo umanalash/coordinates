@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#child {
+    width: 500px;
+}
+.contain {
+    display: grid;
+    justify-content: center;
+}
+.highlight{
+    background-color: pink;
+}

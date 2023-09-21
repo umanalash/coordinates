@@ -1,0 +1,8 @@
+<div class="dialog" *ngIf="hideDialogbox">
+        <label for="">X-Value</label>
+        <input type="number" [(ngModel)]="valueX">
+        <label for="">Y-Value</label>
+        <input type="number" [(ngModel)]="valueY">
+        <button id="dialogue" (click)="displayResults()">Create</button>
+        <button id="close" (click)="closeDialog()">Close</button>
+</div>

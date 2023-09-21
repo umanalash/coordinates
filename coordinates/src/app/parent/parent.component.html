@@ -1,0 +1,11 @@
+<div class="parent-container" (dblclick)="createBox($event)" tabindex="0" (keydown)="onKeyDown($event)">
+  <div
+    class="small-box"
+    *ngFor="let box of dataService.boxes | async"
+    [ngClass]="{ select: box === selectedBox }"
+    [ngStyle]="{ 'left.px': box.x, 'top.px': box.y }"
+    [class.highlight]="box === selectedBox || box === (dataService.highlightedBox$ | async)"
+    (click)="toggleBorder($event,box)"
+    (dblclick)="onDoubleClick($event)"
+  ></div>
+</div>

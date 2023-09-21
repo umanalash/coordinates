@@ -1,0 +1,5 @@
+<div class="gtchild" [class.highlight]="isSelected" (click)="onBoxClick()"  tabindex="0" (keydown)="onKeyDown($event)">
+  <span (click)="toggleHighlight()" [class.highlighted]="isHighlighted">
+  X-Coordinate:{{ box.x }}, Y-Coordinate:{{ box.y }}</span>
+  <button (click)="onclearBox()">Delete</button>
+</div>

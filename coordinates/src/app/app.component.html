@@ -1,0 +1,6 @@
+<div id="compo" [class.blur]="hover">
+  <app-parent ></app-parent>
+  <button id="button" (click)="toggleDisplay()" (click)="showOff()">Add</button>
+  <app-child></app-child>
+</div>
+<app-dialogbox *ngIf="hover" (click)="hiddenOff()" ></app-dialogbox>

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent-container {
+    width:100%;
+    height: 100%;
+    border: 1px solid #000;
+    position: relative;
+  }
+  
+
+
+  .small-box{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #000;
+    background-color:darkmagenta;
+    position: absolute;
+  }
+  
+.highlight{
+  background-color: pink;
+}
+  

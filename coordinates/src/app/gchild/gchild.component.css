@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gtchild {
+    border:2px solid black;
+    margin:10px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+button {
+    margin-left: 10px;
+    cursor: pointer;;
+}
+.gtchild.select {
+    background-color:burlywood;
+}
+.highlight{
+    background-color: pink;
+}
